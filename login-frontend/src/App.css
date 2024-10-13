@@ -1,0 +1,47 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+body{
+  background: url(./asserts/images/login-b.jpg)no-repeat fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  text-align: center;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.login h1{
+  color: white;
+}
+.login input,button{
+  padding: 5px;
+  margin: 5px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  font-size: 25px;
+  border: 3px solid white;
+  color: white;
+  background: rgba(68, 68, 68, 0.8);
+  cursor: pointer;
+}
+.success h1{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.fail h1{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
